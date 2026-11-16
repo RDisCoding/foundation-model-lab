@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+# build outputs (C, C++, CUDA)
+build/
+*.o
+*.so
+a.out
+# experiment outputs and data — never commit
+runs/
+checkpoints/
+/data/
+wandb/
+*.pt
+*.bin
